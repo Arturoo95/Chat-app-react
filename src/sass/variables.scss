@@ -1,0 +1,7 @@
+$primary-color: hsl(39, 89%, 55%);
+
+@mixin centerContent {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

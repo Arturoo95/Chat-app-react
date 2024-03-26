@@ -1,0 +1,131 @@
+.input-and-confirm-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 10px;
+  margin-top: 10px;
+}
+.input-and-confirm-section .submit-button {
+  background-color: hsl(34, 78%, 91%);
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+}
+.input-and-confirm-section .submit-button:hover {
+  background-color: hsl(34, 78%, 85%);
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+}
+.input-and-confirm-section .input-part {
+  margin-top: 0px;
+  border: 1px solid lightblue;
+  width: 450px;
+  height: 100px;
+  border-radius: 10px;
+  outline: none;
+  font-size: 1rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.input-and-confirm-section .input-part::-webkit-input-placeholder {
+  position: absolute;
+  font-size: 1rem;
+  padding: 5px;
+  top: 0px;
+}
+.input-and-confirm-section .input-part::-moz-placeholder {
+  position: absolute;
+  font-size: 1rem;
+  padding: 5px;
+  top: 0px;
+}
+.input-and-confirm-section .input-part:-ms-input-placeholder {
+  position: absolute;
+  font-size: 1rem;
+  padding: 5px;
+  top: 0px;
+}
+.input-and-confirm-section .input-part::-ms-input-placeholder {
+  position: absolute;
+  font-size: 1rem;
+  padding: 5px;
+  top: 0px;
+}
+.input-and-confirm-section .input-part::placeholder {
+  position: absolute;
+  font-size: 1rem;
+  padding: 5px;
+  top: 0px;
+}
+
+.computer-output-part {
+  margin-bottom: 10px;
+  border: 1px solid black;
+  width: 450px;
+  height: 200px;
+  border-radius: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+.user-output-part {
+  border: 1px solid black;
+  width: 450px;
+  height: 200px;
+  border-radius: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+.chat-app {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 650px;
+  height: 650px;
+  border-radius: 10px;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  text-align: center;
+  background-color: beige;
+}
+
+textarea {
+  resize: none;
+}
+
+.app-version {
+  font-size: 1rem;
+}

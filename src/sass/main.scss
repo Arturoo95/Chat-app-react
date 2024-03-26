@@ -1,0 +1,22 @@
+@import "variables.scss";
+@import "inputAndConfirm.scss";
+@import "computerOutput.scss";
+@import "userOutput.scss";
+@import "chatApp.scss";
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  text-align: center;
+  background-color: beige;
+}
+
+textarea {
+  resize: none;
+}
+
+.app-version {
+  font-size: 1rem;
+}

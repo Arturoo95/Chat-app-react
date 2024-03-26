@@ -1,0 +1,17 @@
+.input-and-confirm-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 10px;
+  margin-top: 10px;
+}
+.input-and-confirm-section .submit-button {
+  background-color: antiquewhite;
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+}

@@ -1,0 +1,38 @@
+.input-and-confirm-section {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin-top: 10px;
+
+  .submit-button {
+    background-color: hsl(34, 78%, 91%);
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+  }
+
+  .submit-button:hover {
+    background-color: hsl(34, 78%, 85%);
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+  }
+
+  .input-part {
+    margin-top: 0px;
+    border: 1px solid lightblue;
+    width: 450px;
+    height: 100px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .input-part::placeholder {
+    position: absolute;
+    font-size: 1rem;
+    padding: 5px;
+    top: 0px;
+  }
+}
